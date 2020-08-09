@@ -238,4 +238,188 @@ public final class QueryProcessor {
 		return PageRequest.of(number,size,Sort.by("id"));
 	}
 
+	/**
+	 * @return the separator
+	 */
+	public String getSeparator() {
+		return separator;
+	}
+
+	/**
+	 * @param separator the separator to set
+	 */
+	public void setSeparator(String separator) {
+		this.separator = separator;
+	}
+
+	/**
+	 * @return the paramSeparator
+	 */
+	public String getParamSeparator() {
+		return paramSeparator;
+	}
+
+	/**
+	 * @param paramSeparator the paramSeparator to set
+	 */
+	public void setParamSeparator(String paramSeparator) {
+		this.paramSeparator = paramSeparator;
+	}
+
+	/**
+	 * @return the lessThanOP
+	 */
+	public String getLessThanOP() {
+		return lessThanOP;
+	}
+
+	/**
+	 * @param lessThanOP the lessThanOP to set
+	 */
+	public void setLessThanOP(String lessThanOP) {
+		this.lessThanOP = lessThanOP;
+	}
+
+	/**
+	 * @return the lessEqualOP
+	 */
+	public String getLessEqualOP() {
+		return lessEqualOP;
+	}
+
+	/**
+	 * @param lessEqualOP the lessEqualOP to set
+	 */
+	public void setLessEqualOP(String lessEqualOP) {
+		this.lessEqualOP = lessEqualOP;
+	}
+
+	/**
+	 * @return the greaterThanOP
+	 */
+	public String getGreaterThanOP() {
+		return greaterThanOP;
+	}
+
+	/**
+	 * @param greaterThanOP the greaterThanOP to set
+	 */
+	public void setGreaterThanOP(String greaterThanOP) {
+		this.greaterThanOP = greaterThanOP;
+	}
+
+	/**
+	 * @return the greaterEqualOP
+	 */
+	public String getGreaterEqualOP() {
+		return greaterEqualOP;
+	}
+
+	/**
+	 * @param greaterEqualOP the greaterEqualOP to set
+	 */
+	public void setGreaterEqualOP(String greaterEqualOP) {
+		this.greaterEqualOP = greaterEqualOP;
+	}
+
+	/**
+	 * @return the betweenOP
+	 */
+	public String getBetweenOP() {
+		return betweenOP;
+	}
+
+	/**
+	 * @param betweenOP the betweenOP to set
+	 */
+	public void setBetweenOP(String betweenOP) {
+		this.betweenOP = betweenOP;
+	}
+
+	/**
+	 * @return the inOP
+	 */
+	public String getInOP() {
+		return inOP;
+	}
+
+	/**
+	 * @param inOP the inOP to set
+	 */
+	public void setInOP(String inOP) {
+		this.inOP = inOP;
+	}
+
+	/**
+	 * @return the equalOP
+	 */
+	public String getEqualOP() {
+		return equalOP;
+	}
+
+	/**
+	 * @param equalOP the equalOP to set
+	 */
+	public void setEqualOP(String equalOP) {
+		this.equalOP = equalOP;
+	}
+
+	/**
+	 * @return the pageableSizeParam
+	 */
+	public String getPageableSizeParam() {
+		return pageableSizeParam;
+	}
+
+	/**
+	 * @param pageableSizeParam the pageableSizeParam to set
+	 */
+	public void setPageableSizeParam(String pageableSizeParam) {
+		this.pageableSizeParam = pageableSizeParam;
+	}
+
+	/**
+	 * @return the pageablePageParam
+	 */
+	public String getPageablePageParam() {
+		return pageablePageParam;
+	}
+
+	/**
+	 * @param pageablePageParam the pageablePageParam to set
+	 */
+	public void setPageablePageParam(String pageablePageParam) {
+		this.pageablePageParam = pageablePageParam;
+	}
+
+	/**
+	 * @return the pageableSortParam
+	 */
+	public String getPageableSortParam() {
+		return pageableSortParam;
+	}
+
+	/**
+	 * @param pageableSortParam the pageableSortParam to set
+	 */
+	public void setPageableSortParam(String pageableSortParam) {
+		this.pageableSortParam = pageableSortParam;
+	}
+
+	/**
+	 * @return the preProcess
+	 */
+	public Consumer<Map<String, String>> getPreProcess() {
+		return preProcess;
+	}
+
+	/**
+	 * @param preProcess the preProcess to set
+	 */
+	public void setPreProcess(Consumer<Map<String, String>> preProcess) {
+		this.preProcess = preProcess;
+	}
+	
+	
+
 }
