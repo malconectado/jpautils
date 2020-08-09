@@ -1,6 +1,7 @@
 # jpautils
 Jpa query processor and model generate
 
+##QueryProcessor
 QueryProcessor.java es un clase que transforma un Map<String,String> en un objeto JPASpecification.
 
 La ventaja de esto yace en que se puede generar una api en la que se consulta a la base de datos en funcion de casi cualquier campo de una tabla sin tener que crear consultas en los repositorios. 
